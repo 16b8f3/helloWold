@@ -1,3 +1,44 @@
+* {
+ 	padding: 0;
+ 	margin: 0;
+ 	border: 0;
+ 	box-sizing: border-box;
+}
+
+html {
+	cursor: url('../cursor/poring/Camada1.png'), auto;
+  	-webkit-animation: cursor 600ms infinite;
+  	animation: cursor 600ms infinite;
+}
+
+body {
+	animation: gradient 10s ease infinite;
+	background: linear-gradient(-45deg, #16b8f3, #46a1ee, #6f87de, #8f6bc3, #a34b9d, #aa2870) no-repeat;
+	/*background: linear-gradient(-45deg, #16b8f3, #00ceee, #00e0d6, #58eeb1, #adf78a, #f9f871) no-repeat;*/
+	background-size: 300% 300%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #333;
+	height: 100vh;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 5em;
+	font-weight: normal;
+	font-family: Arial;
+	color: white;
+}
+
+p {
+	font-size: 1em;
+	color: #f5f5f5;
+	font-style: italic;
+	font-family: Verdana;
+}
+
 .column {
 	flex-direction: column;
 }
@@ -7,25 +48,70 @@
 	margin: 0 auto;
 	display: flex;
 	border: 1px solid #ccc;
-	background-color: snow;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 25px;
+	padding: 1em;
+
+	border: 1px solid #ccc;
+  	box-shadow: 15px 15px 1px 0px rgba(245,245,245,0.8);
+
+	cursor: url('../cursor/ragnarok/Camada1.png'), auto;
+	-webkit-animation: cursorContainer 600ms infinite;
+  	/*animation: cursorContainer 600ms infinite;*/
 }
 
 .item {
 	flex: 1;
 	margin: 5px;
-	background: whitesmoke;
 	text-align: center;
-	font-size: 1.5em;
 }
 
-h1 {
-	text-align: center;
-	margin: 20px 0 0 0;
-	font-size: 1.25em;
-	font-weight: normal;
+@keyframes gradient {
+	0% {
+		background-position: 0 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
 }
 
-body {
-	color: #333;
-	background-color: #16b8f3;
+/*Com a ajuda de https://stackoverflow.com/questions/9189250/animated-cursor-support-in-web-applications*/
+
+@keyframes cursor {
+ 	0% {
+  		cursor: url('../cursor/poring/Camada1.png'), auto;
+  	}
+  	25% {
+  		cursor: url('../cursor/poring/Camada2.png'), auto;
+  	}
+  	50% {
+  		cursor: url('../cursor/poring/Camada3.png'), auto;
+  	}
+  	100% {
+  		cursor: url('../cursor/poring/Camada4.png'), auto;
+  	}
+}
+
+@keyframes cursorContainer {
+  	0% {
+  		cursor: url('../cursor/ragnarok/Camada1.png'), auto;
+  	}
+  	20% {
+  		cursor: url('../cursor/ragnarok/Camada2.png'), auto;
+  	}
+  	40% {
+  		cursor: url('../cursor/ragnarok/Camada3.png'), auto;
+  	}
+  	60% {
+  		cursor: url('../cursor/ragnarok/Camada4.png'), auto;
+  	}
+  	80% {
+  		cursor: url('../cursor/ragnarok/Camada5.png'), auto;
+  	}
+  	100% {
+  		cursor: url('../cursor/ragnarok/Camada6.png'), auto;
+  	}
 }
