@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# OláMundo🗺️
 
-You can use the [editor on GitHub](https://github.com/16b8f3/helloWold/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Este 'projeto' é apenas uma página com um Hello World, foi criado para ser o primeiro projeto aqui no GitHub
 
-### Markdown
+A ideia inicial era
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+> (tudo dentro de um container que ficaria no centro da página)
+> 
+> .gif de poring no topo (ou uma coroa giratória)
+> 
+> Olá Mundo no H1
+> 
+> e traduções em português e japonês em p uma embaixo da outra
+> 
+> fundo animado que estava mudando de cor (deveria ter a cor #16b8f3)
 
-```markdown
-Syntax highlighted code block
+(não é como se eu tivesse feito esse esboço em uma folha A4 e não vou colocar aqui porque minhas habilidades como desenhista são... quase nulas)
 
-# Header 1
-## Header 2
-### Header 3
+## Funcionalidade
 
-- Bulleted
-- List
+Você pode usar esta página para brincar com o cursor e tentar ser sorteado com a segunda fala da Alice.
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## Colaboradores
+- [Heitor](https://github.com/hbisneto)
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Ideias para implementar
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/16b8f3/helloWold/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+1. Efeito maquina de escrever no "Hello World"
+2. Mais falas para Alice
