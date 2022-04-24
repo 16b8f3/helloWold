@@ -78,6 +78,33 @@ p {
 	}
 }
 
+/* Balão de Texto */
+.balao{
+    background: #000;
+    border-radius: 15px;
+    width: 300px;
+    height: 100px;
+
+    position: relative;
+}
+.balao:after{
+
+    content: "";
+
+    width: 0;
+    height: 0;
+
+    position: absolute;
+
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #000;
+
+    bottom: -20px;
+    left: 60%;
+}
+/* Balão de Texto */
+
 /*Com a ajuda de https://stackoverflow.com/questions/9189250/animated-cursor-support-in-web-applications*/
 
 @keyframes cursor {
