@@ -43,7 +43,9 @@ p {
 }
 
 .container {
-	max-width: 500px;
+	max-width: 505px;
+	min-width: 505px;
+	min-height: 400px;
 	margin: 0 auto;
 	display: flex;
 	border: 1px solid #ccc;
@@ -120,6 +122,13 @@ p {
 	font-size: 0.9em;
 }
 
+.o_titulo::after {
+	content: '|';
+	margin-left: 5px;
+	opacity: 1;
+	animation: pisca .7s infinite;
+}
+
 @keyframes gradient {
 	0% {
 		background-position: 0 50%;
@@ -168,4 +177,13 @@ p {
   	100% {
   		cursor: url('../cursor/ragnarok/Camada6.png'), auto;
   	}
+}
+
+@keyframes pisca {
+	0%, 100% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
 }
