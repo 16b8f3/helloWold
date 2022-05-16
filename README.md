@@ -28,5 +28,4 @@ Você pode usar esta página para brincar com o cursor e tentar ser sorteado com
 
 ## Ideias para implementar
 
-1. Efeito maquina de escrever no "Hello World"
-2. Mais falas para Alice
+1. Mais falas para Alice
